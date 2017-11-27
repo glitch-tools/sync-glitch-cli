@@ -3,6 +3,8 @@
 
 # glitch-deploy-cli [![build status][build badge]]][build url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sotayamashita/glitch-deploy-cli.svg)](https://greenkeeper.io/)
+
 > Deploy a GitHub repository to glitch.com
 
 It uses an API which is used in Glitch application and may be changed without any notice because it is not public. Please keep this in the back of your head. I am looking forward to official API. :+1:
