@@ -1,7 +1,9 @@
 [build badge]: https://travis-ci.org/sotayamashita/glitch-deploy-cli.svg?branch=master
 [build url]:   https://travis-ci.org/sotayamashita/glitch-deploy-cli
+[greenkeeper badge]: https://badges.greenkeeper.io/sotayamashita/glitch-deploy-cli.svg
+[greenkeeper url]:   https://greenkeeper.io/
 
-# glitch-deploy-cli [![build status][build badge]]][build url]
+# glitch-deploy-cli [![build status][build badge]]][build url] [![greenkeeper status][greenkeeper badge]][greenkeeper url]
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/sotayamashita/glitch-deploy-cli.svg)](https://greenkeeper.io/)
 
@@ -26,11 +28,13 @@ You have to set the following environment variables:
 ### with Travis CI
 
 ```
+# .travis.yml
 deploy:
   glitch-deploy
 ```
 
 - [Travis CI - The Build Lifecycle](https://docs.travis-ci.com/user/customizing-the-build/#The-Build-Lifecycle)
+- [Travis CI - Environment Variables](https://docs.travis-ci.com/user/environment-variables/)
 
 ## License
 
