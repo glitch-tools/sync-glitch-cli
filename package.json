@@ -1,0 +1,52 @@
+{
+  "name": "glitch-deploy-cli",
+  "version": "0.0.0-development",
+  "description": "Deploy a GitHub repository to glitch.com",
+  "bin": {
+    "glitch-deploy": "./cli.js"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "lint": "standard",
+    "lint-fix": "standard --fix",
+    "test": "npm run lint",
+    "posttest": "npm run lint",
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "commitmsg": "validate-commit-msg",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sotayamashita/glitch-deploy-cli.git"
+  },
+  "keywords": [
+    "probot",
+    "GitHub App",
+    "pull request",
+    "label"
+  ],
+  "author": "Sam Yamashita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sotayamashita/glitch-deploy-cli/issues"
+  },
+  "homepage": "https://github.com/sotayamashita/glitch-deploy-cli#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "envalid": "^4.1.1"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^0.14.3",
+    "semantic-release": "^8.2.0",
+    "standard": "^10.0.3",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
