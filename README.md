@@ -3,9 +3,8 @@
 [greenkeeper badge]: https://badges.greenkeeper.io/sotayamashita/glitch-deploy-cli.svg
 [greenkeeper url]:   https://greenkeeper.io/
 
-# glitch-deploy-cli [![build status][build badge]]][build url] [![greenkeeper status][greenkeeper badge]][greenkeeper url]
+# glitch-deploy-cli [![build status][build badge]][build url] [![greenkeeper status][greenkeeper badge]][greenkeeper url]
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/sotayamashita/glitch-deploy-cli.svg)](https://greenkeeper.io/)
 
 > Deploy a GitHub repository to glitch.com
 
