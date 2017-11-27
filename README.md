@@ -1,6 +1,11 @@
-# glitch-deploy-cli
+[build badge]: https://travis-ci.org/sotayamashita/glitch-deploy-cli.svg?branch=master
+[build url]:   https://travis-ci.org/sotayamashita/glitch-deploy-cli
+
+# glitch-deploy-cli [![build status][build badge]]][build url]
 
 > Deploy a GitHub repository to glitch.com
+
+It uses an API which is used in Glitch application and may be changed without any notice because it is not public. Please keep this in the back of your head. I am looking forward to official API. :+1:
 
 ## Install
 
