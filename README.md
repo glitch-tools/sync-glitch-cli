@@ -26,9 +26,9 @@ npm install glitch-deploy-cli --save-dev
 
 You have to set the following environment variables:
 
-- `GLITCH_PROJECT_ID` _(the Glitch project id)_
-- `GLITCH_TOKEN` _(the Glitch token)_
-- `GH_REPO` _(the GitHub repo. e.g `sotayamashita/glitch-deploy-cli`)_
+- `GLITCH_PROJECT_ID` ..._the Glitch project id. You can get from `https://api.glitch.com/projects/<Your Project Domain >`_
+- `GLITCH_TOKEN` ... _the Glitch token_
+- `GH_REPO` ... _the GitHub repo. e.g `sotayamashita/glitch-deploy-cli`_
 
 ### with Travis CI
 
@@ -40,6 +40,8 @@ deploy:
 
 - [Travis CI - The Build Lifecycle](https://docs.travis-ci.com/user/customizing-the-build/#The-Build-Lifecycle)
 - [Travis CI - Environment Variables](https://docs.travis-ci.com/user/environment-variables/)
+
+## related
 
 ## License
 
