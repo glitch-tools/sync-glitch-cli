@@ -4,7 +4,7 @@ async function deployGlitch (token, projectId, repo) {
   const queryObj = { token: token, projectId: projectId, repo: repo }
   try {
     const response = await r2.post(`https://api.glitch.com/project/githubImport/${buildQuery(queryObj)}`).response
-    if (response.statue !== 200) {
+    if (response.status !== 200) {
       throw new Error(`response status is ${response.status}`)
     }
   } catch (err) {
