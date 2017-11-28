@@ -8,7 +8,11 @@
 
 > Deploy a GitHub repository to glitch.com
 
-<a href="https://www.patreon.com/bePatron?u=6995574" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+<p>
+  <a href="https://www.patreon.com/bePatron?u=6995574">
+    <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" height="40px" />
+  </a>
+</p>
 
 It uses an API which is used in Glitch application and may be changed without any notice because it is not public. Please keep this in the back of your head. I am looking forward to official API. :+1:
 
