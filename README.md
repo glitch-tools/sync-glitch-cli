@@ -6,7 +6,7 @@
 # glitch-deploy-cli [![build status][build badge]][build url] [![greenkeeper status][greenkeeper badge]][greenkeeper url]
 
 <p>
-  <a href="https://www.patreon.com/bePatron?u=6995574" target="_blank">
+  <a href="https://www.patreon.com/bePatron?u=6995574">
     <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" height="40px" />
   </a>
 </p>
@@ -25,13 +25,13 @@ npm install glitch-deploy-cli --save-dev
 
 You have to set the following environment variables:
 
-- `GLITCH_PROJECT_ID` _(the Glitch project id. You can get it from `https://api.glitch.com/projects/<Your Project Domain >`)_
+- `GLITCH_PROJECT_ID` _(the Glitch project id.)_
 - `GLITCH_TOKEN` _(the Glitch token)_
 - `GH_REPO` _(the GitHub repo. e.g `sotayamashita/glitch-deploy-cli`)_
 
 ### with Travis CI
 
-```
+```yml
 # .travis.yml
 after_success:
   - glitch-deploy
