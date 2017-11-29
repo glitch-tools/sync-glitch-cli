@@ -21,10 +21,11 @@
     "url": "https://github.com/sotayamashita/glitch-deploy-cli.git"
   },
   "keywords": [
-    "probot",
-    "GitHub App",
-    "pull request",
-    "label"
+    "cli",
+    "glitch",
+    "ci",
+    "github",
+    "import"
   ],
   "author": "Sam Yamashita",
   "license": "MIT",
