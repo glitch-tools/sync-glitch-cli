@@ -29,12 +29,30 @@ You have to set the following environment variables:
 - `GLITCH_TOKEN` _(the Glitch token)_
 - `GH_REPO` _(the GitHub repo. e.g `sotayamashita/glitch-deploy-cli`)_
 
+```
+GLITCH_PROJECT_ID='' GLITCH_TOKEN='' GH_REPO='' ./node_modules/.bin/glitch-deploy
+```
+
+Enable debug logs:
+
+```
+GLITCH_PROJECT_ID='' GLITCH_TOKEN='' GH_REPO='' DEBUG=glitch-deploy* ./node_modules/.bin/glitch-deploy
+```
+
 ### with Travis CI
 
 ```yml
 # .travis.yml
 after_success:
   - glitch-deploy
+```
+
+Enable debug logs:
+
+```yml
+# .travis.yml
+after_success:
+  - DEBUG=glitch-deploy* glitch-deploy
 ```
 
 - [Travis CI - The Build Lifecycle](https://docs.travis-ci.com/user/customizing-the-build/#The-Build-Lifecycle)
