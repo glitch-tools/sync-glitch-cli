@@ -23,6 +23,19 @@ npm install glitch-deploy-cli --save-dev
 
 ## Usage
 
+### How to get required environment variables
+
+1. Open your project on Glitch
+1. Open devtool and click the Network tab
+1. Select Project name > Advanced Options > Import from GitHub
+1. You can find a request URL which starts from `https://api.glitch.com/projects/githubImport ~`:
+
+   ![network](https://user-images.githubusercontent.com/1587053/33523225-a779160e-d844-11e7-9dc2-28e9afed9260.png)
+
+1. It has three params. These params are what you need.
+
+### How to set environment variables
+
 You have to set the following environment variables:
 
 - `GLITCH_PROJECT_ID` _(the Glitch project id.)_
