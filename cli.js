@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const GlitchAPI = require('./lib/glitch.js')
 const envalid = require('envalid')
+const chalk = require('chalk')
 const debug = require('debug')('sync-glitch-cli')
 
 // Quote from gr2m/glitch-deploy
@@ -19,7 +20,18 @@ if (process.env.CI) {
   const response = await glitchClient.importFromGithub(process.env.GLITCH_PROJECT_ID, process.env.GH_REPO)
 
   if (response.status !== 200) {
-    console.error('Fail to sync changes in your GitHub repository to glitch.com')
+    const output = [
+      chalk.red('error '),
+      'Fail to sync changes in your GitHub repository to glitch.com',
+      chalk.yellow('\nExiting with error code 1')
+    ].join('')
+    console.error(output)
     process.exit(1)
+  } else {
+    const output = [
+      chalk.green('success '),
+      'To sync changes in your GitHub repository to glitch.com'
+    ].join('')
+    console.log(output)
   }
 })()

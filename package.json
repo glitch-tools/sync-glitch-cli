@@ -37,6 +37,7 @@
   },
   "homepage": "https://github.com/sotayamashita/glitch-deploy-cli#readme",
   "dependencies": {
+    "chalk": "^2.3.0",
     "debug": "^3.1.0",
     "envalid": "^4.1.1",
     "query-string": "^5.0.1",
