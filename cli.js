@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-const deployGlitch = require('./index')
+const GlitchAPI = require('./lib/glitch.js')
 const envalid = require('envalid')
-const debug = require('debug')('glitch-deploy-cli')
+const debug = require('debug')('sync-glitch-cli')
 
 // Quote from gr2m/glitch-deploy
 // https://github.com/gr2m/glitch-deploy/blob/master/bin/glitch-deploy.js#L5-L8
@@ -15,5 +15,11 @@ if (process.env.CI) {
 }
 
 ;(async () => {
-  await deployGlitch(process.env.GLITCH_TOKEN, process.env.GLITCH_PROJECT_ID, process.env.GH_REPO)
+  const glitchClient = new GlitchAPI(process.env.GLITCH_TOKEN)
+  const response = await glitchClient.importFromGithub(process.env.GLITCH_PROJECT_ID, process.env.GH_REPO)
+
+  if (response.status !== 200) {
+    console.error('Fail to sync changes in your GitHub repository to glitch.com')
+    process.exit(1)
+  }
 })()

@@ -1,16 +1,19 @@
 {
-  "name": "glitch-deploy-cli",
+  "name": "sync-glitch-cli",
   "version": "0.0.0-development",
-  "description": "Deploy a GitHub repository to glitch.com",
+  "description": "Sync changes in your GitHub repository to glitch.com",
   "bin": {
-    "glitch-deploy": "./cli.js"
+    "sync-glitch": "./cli.js"
   },
   "scripts": {
     "commit": "git-cz",
     "lint": "standard",
     "lint-fix": "standard --fix",
-    "test": "npm run lint",
+    "test": "jest",
+    "test-watch": "jest --watch",
     "posttest": "npm run lint",
+    "coverage": "npm test  -- --coverage",
+    "postcoverage": "codecov",
     "precommit": "npm test",
     "prepush": "npm test",
     "commitmsg": "validate-commit-msg",
@@ -36,12 +39,16 @@
   "dependencies": {
     "debug": "^3.1.0",
     "envalid": "^4.1.1",
+    "query-string": "^5.0.1",
     "r2": "^2.0.0"
   },
   "devDependencies": {
+    "codecov": "^3.0.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.1.0",
     "husky": "^0.14.3",
+    "jest": "^21.2.1",
+    "power-assert": "^1.4.4",
     "semantic-release": "^8.2.0",
     "standard": "^10.0.3",
     "validate-commit-msg": "^2.14.0"
@@ -50,5 +57,25 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "standard": {
+    "ignore": [
+      "test/**"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "lib/**/*.js"
+    ],
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage/",
+    "testPathIgnorePatterns": [
+      "node_modules",
+      "test/fixtures"
+    ],
+    "watchPathIgnorePatterns": [
+      "node_modules",
+      "test/fixtures"
+    ]
   }
 }
