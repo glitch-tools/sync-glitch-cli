@@ -1,9 +1,9 @@
 {
-  "name": "sync-glitch-cli",
+  "name": "glitch-deploy-cli",
   "version": "0.0.0-development",
   "description": "Sync changes in your GitHub repository to glitch.com",
   "bin": {
-    "sync-glitch": "./cli.js"
+    "glitch-deploy-cli": "./cli.js"
   },
   "scripts": {
     "commit": "git-cz",
