@@ -2,7 +2,7 @@
 const GlitchAPI = require('./lib/glitch.js')
 const envalid = require('envalid')
 const chalk = require('chalk')
-const debug = require('debug')('glitch-deploy-cli')
+const debug = require('debug')('sync-glitch')
 
 // Quote from gr2m/glitch-deploy
 // https://github.com/gr2m/glitch-deploy/blob/master/bin/glitch-deploy.js#L5-L8

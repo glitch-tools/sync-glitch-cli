@@ -3,7 +3,7 @@
   "version": "0.0.0-development",
   "description": "Sync changes in your GitHub repository to glitch.com",
   "bin": {
-    "glitch-deploy": "./cli.js"
+    "sync-glitch": "./cli.js"
   },
   "scripts": {
     "commit": "git-cz",

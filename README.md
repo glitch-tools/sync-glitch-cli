@@ -1,13 +1,13 @@
-[build badge]: https://travis-ci.org/sotayamashita/glitch-deploy-cli.svg?branch=master
-[build url]:   https://travis-ci.org/sotayamashita/glitch-deploy-cli
+[build badge]: https://travis-ci.org/sotayamashita/sync-glitch-cli.svg?branch=master
+[build url]:   https://travis-ci.org/sotayamashita/sync-glitch-cli
 [jest badge]: https://img.shields.io/badge/tested_with-jest-99424f.svg
 [jest url]:   https://github.com/facebook/jest
-[codecov badge]: https://codecov.io/gh/sotayamashita/glitch-deploy-cli/branch/master/graph/badge.svg
-[codecov url]:   https://codecov.io/gh/sotayamashita/glitch-deploy-cli
-[greenkeeper badge]: https://badges.greenkeeper.io/sotayamashita/glitch-deploy-cli.svg
+[codecov badge]: https://codecov.io/gh/sotayamashita/sync-glitch-cli/branch/master/graph/badge.svg
+[codecov url]:   https://codecov.io/gh/sotayamashita/sync-glitch-cli
+[greenkeeper badge]: https://badges.greenkeeper.io/sotayamashita/sync-glitch-cli.svg
 [greenkeeper url]:   https://greenkeeper.io/
 
-# glitch-deploy-cli [![build status][build badge]][build url] [![codecov][codecov badge]][codecov url] [![jest][jest badge]][jest url] [![greenkeeper status][greenkeeper badge]][greenkeeper url]
+# sync-glitch-cli [![build status][build badge]][build url] [![codecov][codecov badge]][codecov url] [![jest][jest badge]][jest url] [![greenkeeper status][greenkeeper badge]][greenkeeper url]
 
 <p>
   <a href="https://www.patreon.com/bePatron?u=6995574">
@@ -22,7 +22,7 @@
 ## Install
 
 ```bash
-npm install glitch-deploy-cli --save-dev
+npm install sync-glitch-cli --save-dev
 ```
 
 ## Usage
@@ -44,16 +44,16 @@ You have to set the following environment variables:
 
 - `GLITCH_PROJECT_ID` _(the Glitch project id.)_
 - `GLITCH_TOKEN` _(the Glitch token)_
-- `GH_REPO` _(the GitHub repo. e.g `sotayamashita/glitch-deploy-cli`)_
+- `GH_REPO` _(the GitHub repo. e.g `sotayamashita/sync-glitch-cli`)_
 
 ```bash
-GLITCH_PROJECT_ID='' GLITCH_TOKEN='' GH_REPO='' ./node_modules/.bin/glitch-deploy
+GLITCH_PROJECT_ID='' GLITCH_TOKEN='' GH_REPO='' ./node_modules/.bin/sync-glitch
 ```
 
 Enable debug logs:
 
 ```bash
-GLITCH_PROJECT_ID='' GLITCH_TOKEN='' GH_REPO='' DEBUG=glitch-deploy* ./node_modules/.bin/glitch-deploy
+GLITCH_PROJECT_ID='' GLITCH_TOKEN='' GH_REPO='' DEBUG=sync-glitch* ./node_modules/.bin/sync-glitch
 ```
 
 ### with Travis CI
@@ -61,7 +61,7 @@ GLITCH_PROJECT_ID='' GLITCH_TOKEN='' GH_REPO='' DEBUG=glitch-deploy* ./node_modu
 ```yml
 # .travis.yml
 after_success:
-  - glitch-deploy
+  - sync-glitch
 ```
 
 Enable debug logs:
@@ -69,7 +69,7 @@ Enable debug logs:
 ```yml
 # .travis.yml
 after_success:
-  - DEBUG=glitch-deploy* glitch-deploy
+  - DEBUG=sync-glitch* sync-glitch
 ```
 
 - [Travis CI - The Build Lifecycle](https://docs.travis-ci.com/user/customizing-the-build/#The-Build-Lifecycle)
