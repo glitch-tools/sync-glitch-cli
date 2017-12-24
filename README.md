@@ -1,13 +1,13 @@
+[npm badge]: https://badge.fury.io/js/sync-glitch-cli.svg
+[npm url]:   https://badge.fury.io/js/sync-glitch-cli
 [build badge]: https://travis-ci.org/sotayamashita/sync-glitch-cli.svg?branch=master
 [build url]:   https://travis-ci.org/sotayamashita/sync-glitch-cli
-[jest badge]: https://img.shields.io/badge/tested_with-jest-99424f.svg
-[jest url]:   https://github.com/facebook/jest
 [codecov badge]: https://codecov.io/gh/sotayamashita/sync-glitch-cli/branch/master/graph/badge.svg
 [codecov url]:   https://codecov.io/gh/sotayamashita/sync-glitch-cli
 [greenkeeper badge]: https://badges.greenkeeper.io/sotayamashita/sync-glitch-cli.svg
 [greenkeeper url]:   https://greenkeeper.io/
 
-# sync-glitch-cli [![build status][build badge]][build url] [![codecov][codecov badge]][codecov url] [![jest][jest badge]][jest url] [![greenkeeper status][greenkeeper badge]][greenkeeper url]
+# sync-glitch-cli [![npm][npm badge]][npm url] [![build status][build badge]][build url] [![codecov][codecov badge]][codecov url] [![greenkeeper status][greenkeeper badge]][greenkeeper url]
 
 <p>
   <a href="https://www.patreon.com/bePatron?u=6995574">
