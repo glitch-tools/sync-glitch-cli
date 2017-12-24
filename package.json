@@ -1,5 +1,5 @@
 {
-  "name": "glitch-deploy-cli",
+  "name": "sync-glitch-cli",
   "version": "0.0.0-development",
   "description": "Sync changes in your GitHub repository to glitch.com",
   "bin": {
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sotayamashita/glitch-deploy-cli.git"
+    "url": "https://github.com/sotayamashita/sync-glitch-cli.git"
   },
   "keywords": [
     "cli",
@@ -33,9 +33,9 @@
   "author": "Sam Yamashita",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sotayamashita/glitch-deploy-cli/issues"
+    "url": "https://github.com/sotayamashita/sync-glitch-cli/issues"
   },
-  "homepage": "https://github.com/sotayamashita/glitch-deploy-cli#readme",
+  "homepage": "https://github.com/sotayamashita/sync-glitch-cli#readme",
   "dependencies": {
     "chalk": "^2.3.0",
     "debug": "^3.1.0",
