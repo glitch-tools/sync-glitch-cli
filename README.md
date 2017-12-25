@@ -21,7 +21,7 @@
 
 ## Install
 
-```bash
+```console
 npm install sync-glitch-cli --save-dev
 ```
 
@@ -46,13 +46,13 @@ You have to set the following environment variables:
 - `GLITCH_TOKEN` _(the Glitch token)_
 - `GH_REPO` _(the GitHub repo. e.g `sotayamashita/sync-glitch-cli`)_
 
-```bash
+```console
 GLITCH_PROJECT_ID='' GLITCH_TOKEN='' GH_REPO='' ./node_modules/.bin/sync-glitch
 ```
 
 Enable debug logs:
 
-```bash
+```console
 GLITCH_PROJECT_ID='' GLITCH_TOKEN='' GH_REPO='' DEBUG=sync-glitch* ./node_modules/.bin/sync-glitch
 ```
 
@@ -72,8 +72,8 @@ after_success:
   - DEBUG=sync-glitch* sync-glitch
 ```
 
-- [Travis CI - The Build Lifecycle](https://docs.travis-ci.com/user/customizing-the-build/#The-Build-Lifecycle)
-- [Travis CI - Environment Variables](https://docs.travis-ci.com/user/environment-variables/)
+- [The Build Lifecycle](https://docs.travis-ci.com/user/customizing-the-build/#The-Build-Lifecycle)
+- [Environment Variables](https://docs.travis-ci.com/user/environment-variables/)
 
 ## License
 
