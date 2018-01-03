@@ -74,7 +74,3 @@ after_success:
 
 - [The Build Lifecycle](https://docs.travis-ci.com/user/customizing-the-build/#The-Build-Lifecycle)
 - [Environment Variables](https://docs.travis-ci.com/user/environment-variables/)
-
-## License
-
-MIT © Sam Yamashita
