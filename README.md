@@ -17,7 +17,7 @@
 
 > Sync changes in your GitHub repository to glitch.com
 
-**Heads-up!** It use a API which is not introduced by Glitch officially so it has possibility to be changed without any notice. However, I am making efforts to know wether it is broken or not. For example, I use it on my project,  [sotayamashita/pr-label](https://github.com/sotayamashita/pr-label/) and it is run by every week with TravisCI so I can recognize as soon as possible if it could be wrong. I am looking forward to official API. :unicorn:
+**Heads-up!** It use a API which is not introduced by Glitch officially so it has possibility to be changed without any notice. However, I am making efforts to know wether it is broken or not. For example, I use it on my project,  [sotayamashita/labeling-droid](https://github.com/sotayamashita/labeling-droid/) and it is run by every week with TravisCI so I can recognize as soon as possible if it could be wrong. I am looking forward to official API. :unicorn:
 
 ## Install
 
