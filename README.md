@@ -10,8 +10,8 @@
 # sync-glitch-cli [![npm][npm badge]][npm url] [![build status][build badge]][build url] [![codecov][codecov badge]][codecov url] [![greenkeeper status][greenkeeper badge]][greenkeeper url]
 
 <p>
-  <a href="https://www.patreon.com/bePatron?u=6995574">
-    <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" height="40px" />
+  <a href="https://www.buymeacoffee.com/pM9aX60">
+    <img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" height="41px" />
   </a>
 </p>
 
