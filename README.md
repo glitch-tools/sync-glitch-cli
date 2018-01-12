@@ -17,7 +17,7 @@
 
 > Sync changes in your GitHub repository to glitch.com
 
-**Heads-up!** It uses a API which is not introduced by Glitch officially so it has possibility to be changed without any notice. However, I am making efforts to know wether it works or not with [test-sync-glitch-cli](https://github.com/sotayamashita/test-sync-glitch-cli). It execute test everyday with TravisCI. It help my recognize as soon as possible if it could be wrong. I am looking forward to official API. :unicorn:
+**Heads-up!**  It uses an API which is not introduced by Glitch officially so it can be changed without any notice. However, I am making efforts to know whether it works or not with [test-sync-glitch-cli](https://github.com/sotayamashita/test-sync-glitch-cli). It executes test every day with TravisCI. It helps my recognise as soon as possible if it could be wrong. I am looking forward to official API. :unicorn:
 
 ## Install
 
