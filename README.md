@@ -7,6 +7,11 @@
 [greenkeeper badge]: https://badges.greenkeeper.io/sotayamashita/sync-glitch-cli.svg
 [greenkeeper url]:   https://greenkeeper.io/
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/1587053/34863913-2c2a214c-f7b5-11e7-950f-efca77278393.png" width="300"/>
+<p/>
+<br>
+
 # sync-glitch-cli [![npm][npm badge]][npm url] [![build status][build badge]][build url] [![codecov][codecov badge]][codecov url] [![greenkeeper status][greenkeeper badge]][greenkeeper url]
 
 <p>
@@ -17,7 +22,9 @@
 
 > Sync changes in your GitHub repository to glitch.com
 
-**Heads-up!**  It uses an API which is not introduced by Glitch officially so it can be changed without any notice. However, I am making efforts to know whether it works or not with [test-sync-glitch-cli](https://github.com/sotayamashita/test-sync-glitch-cli). It executes test every day with TravisCI. It helps my recognise as soon as possible if it could be wrong. I am looking forward to official API. :unicorn:
+It pushes changes from a GitHub repository to glitch.com. It does **NOT** pull changes from glitch.com to GitHub. If you want to sync two-way between a Glitch and a GitHub repository, Please consider to use [garethx/glitch-github-sync](https://github.com/sotayamashita/sync-glitch-cli).
+
+_**Heads-up!**  It uses an API which is not introduced by Glitch officially so it can be changed without any notice. However, I am making efforts to know whether it works or not with [test-sync-glitch-cli](https://github.com/sotayamashita/test-sync-glitch-cli). It executes test every day with TravisCI. It helps my recognise as soon as possible if it could be wrong. I am looking forward to official API. :unicorn:_
 
 ## Install
 
