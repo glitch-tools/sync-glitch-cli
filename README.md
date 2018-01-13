@@ -81,3 +81,8 @@ after_success:
 
 - [The Build Lifecycle](https://docs.travis-ci.com/user/customizing-the-build/#The-Build-Lifecycle)
 - [Environment Variables](https://docs.travis-ci.com/user/environment-variables/)
+
+## Troubleshooting
+
+- [ ] Ensure your repository is **NOT** empty
+
