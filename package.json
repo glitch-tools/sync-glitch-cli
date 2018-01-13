@@ -51,7 +51,7 @@
     "jest": "^22.0.5",
     "nock": "^9.1.5",
     "power-assert": "^1.4.4",
-    "semantic-release": "^11.0.2",
+    "semantic-release": "^12.2.2",
     "standard": "^10.0.3",
     "validate-commit-msg": "^2.14.0"
   },
