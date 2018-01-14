@@ -14,12 +14,6 @@
 
 # sync-glitch-cli [![npm][npm badge]][npm url] [![build status][build badge]][build url] [![codecov][codecov badge]][codecov url] [![greenkeeper status][greenkeeper badge]][greenkeeper url]
 
-<p>
-  <a href="https://www.buymeacoffee.com/pM9aX60">
-    <img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" height="41px" />
-  </a>
-</p>
-
 > Sync changes in your GitHub repository to glitch.com
 
 It pushes changes from a GitHub repository to glitch.com. It does **NOT** pull changes from glitch.com to GitHub. If you want to sync two-way between a Glitch and a GitHub repository, Please consider to use [garethx/glitch-github-sync](https://github.com/garethx/glitch-github-sync).
