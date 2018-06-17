@@ -15,8 +15,7 @@
     "postcoverage": "codecov",
     "precommit": "npm test",
     "prepush": "npm test",
-    "commitmsg": "validate-commit-msg",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "commitmsg": "validate-commit-msg"
   },
   "repository": {
     "type": "git",
@@ -52,7 +51,6 @@
     "nock": "^9.1.5",
     "power-assert": "^1.4.4",
     "prettier": "^1.13.5",
-    "semantic-release": "^15.5.4",
     "validate-commit-msg": "^2.14.0"
   },
   "config": {
