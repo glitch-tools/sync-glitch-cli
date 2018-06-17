@@ -7,7 +7,7 @@
   },
   "scripts": {
     "commit": "git-cz",
-    "lint": "prettier --write lib/glitch.js",
+    "lint": "prettier --write {lib/**/*,test/**/*}.js",
     "test": "jest",
     "test-watch": "jest --watch",
     "posttest": "npm run lint",
@@ -61,8 +61,8 @@
     }
   },
   "lint-staged": {
-    "lib/glitch.js": [
-      "prettier --write lib/glitch.js",
+    "{lib/**/*,test/**/*}.js": [
+      "prettier --write {lib/**/*,test/**/*}.js",
       "git add"
     ]
   },
