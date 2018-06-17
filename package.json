@@ -15,6 +15,7 @@
     "postcoverage": "codecov",
     "precommit": "npm test",
     "prepush": "npm test",
+    "travis-deploy-once": "travis-deploy-once --pro",
     "commitmsg": "validate-commit-msg"
   },
   "repository": {
@@ -51,6 +52,7 @@
     "nock": "^9.1.5",
     "power-assert": "^1.4.4",
     "prettier": "^1.13.5",
+    "travis-deploy-once": "^5.0.0",
     "validate-commit-msg": "^2.14.0"
   },
   "config": {

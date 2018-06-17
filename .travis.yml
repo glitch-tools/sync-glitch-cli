@@ -27,7 +27,7 @@ after_script:
   - greenkeeper-lockfile-upload
 
 after_success:
-  - npx travis-deploy-once "npx semantic-release && npm publish"
+  - npm run travis-deploy-once "npx semantic-release && npm publish"
 
 branches:
   only:
