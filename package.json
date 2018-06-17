@@ -7,8 +7,7 @@
   },
   "scripts": {
     "commit": "git-cz",
-    "lint": "standard",
-    "lint-fix": "standard --fix",
+    "lint": "prettier --write lib/glitch.js",
     "test": "jest",
     "test-watch": "jest --watch",
     "posttest": "npm run lint",
@@ -44,15 +43,16 @@
     "r2": "^2.0.0"
   },
   "devDependencies": {
-    "codecov": "^3.0.0",
-    "commitizen": "^2.9.6",
+    "codecov": "^3.0.2",
+    "commitizen": "^2.10.1",
     "cz-conventional-changelog": "^2.1.0",
     "husky": "^0.14.3",
     "jest": "^22.0.5",
+    "lint-staged": "^7.2.0",
     "nock": "^9.1.5",
     "power-assert": "^1.4.4",
+    "prettier": "^1.13.5",
     "semantic-release": "^12.2.2",
-    "standard": "^10.0.3",
     "validate-commit-msg": "^2.14.0"
   },
   "config": {
@@ -60,9 +60,10 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "standard": {
-    "ignore": [
-      "test/**"
+  "lint-staged": {
+    "lib/glitch.js": [
+      "prettier --write lib/glitch.js",
+      "git add"
     ]
   },
   "jest": {
