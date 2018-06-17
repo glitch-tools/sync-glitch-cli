@@ -35,7 +35,7 @@ npm install sync-glitch-cli --save-dev
 1. Select Project name > Advanced Options > Import from GitHub
 1. You can find a request URL which starts from `https://api.glitch.com/projects/githubImport ~`:
 
-   ![network](https://user-images.githubusercontent.com/1587053/33523225-a779160e-d844-11e7-9dc2-28e9afed9260.png)
+   ![network](https://raw.githubusercontent.com/glitch-tools/sync-glitch-cli/master/public/assets/capture.png)
 
 1. It has three params. These params are what you need.
 
@@ -44,7 +44,7 @@ npm install sync-glitch-cli --save-dev
 You have to set the following environment variables:
 
 - `GLITCH_PROJECT_ID` _(the Glitch project id.)_
-- `GLITCH_TOKEN` _(the Glitch token)_
+- `GLITCH_TOKEN` _(the Glitch authorization)_
 - `GH_REPO` _(the GitHub repo. e.g `sotayamashita/sync-glitch-cli`)_
 
 ```console
