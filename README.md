@@ -1,10 +1,10 @@
 [npm badge]: https://badge.fury.io/js/sync-glitch-cli.svg
 [npm url]:   https://badge.fury.io/js/sync-glitch-cli
-[build badge]: https://travis-ci.org/sotayamashita/sync-glitch-cli.svg?branch=master
-[build url]:   https://travis-ci.org/sotayamashita/sync-glitch-cli
-[codecov badge]: https://codecov.io/gh/sotayamashita/sync-glitch-cli/branch/master/graph/badge.svg
-[codecov url]:   https://codecov.io/gh/sotayamashita/sync-glitch-cli
-[greenkeeper badge]: https://badges.greenkeeper.io/sotayamashita/sync-glitch-cli.svg
+[build badge]: https://travis-ci.org/glitch-tools/sync-glitch-cli.svg?branch=master
+[build url]:   https://travis-ci.org/glitch-tools/sync-glitch-cli
+[codecov badge]: https://codecov.io/gh/glitch-tools/sync-glitch-cli/branch/master/graph/badge.svg
+[codecov url]:   https://codecov.io/gh/glitch-tools/sync-glitch-cli
+[greenkeeper badge]: https://badges.greenkeeper.io/glitch-tools/sync-glitch-cli.svg
 [greenkeeper url]:   https://greenkeeper.io/
 
 <p align="center">
@@ -79,4 +79,3 @@ after_success:
 ## Troubleshooting
 
 - [ ] Ensure your repository is **NOT** empty
-
