@@ -16,13 +16,13 @@
 
 > Sync changes in your GitHub repository to glitch.com
 
-It pushes changes from a GitHub repository to glitch.com. It does **NOT** pull changes from glitch.com to GitHub. If you want to sync two-way between a Glitch and a GitHub repository, Please consider to use [garethx/glitch-github-sync](https://github.com/garethx/glitch-github-sync).
+It pushes changes from a GitHub repository to glitch.com. It does **NOT** pull changes from glitch.com to GitHub.
 
-_**Heads-up!**  It uses undocumented API so it can be changed without any notice. However, I am making efforts to know whether it works or not with [test-sync-glitch-cli](https://github.com/sotayamashita/test-sync-glitch-cli). It executes test every day with TravisCI. It helps my recognise as soon as possible if it could be wrong. I am looking forward to official API. :unicorn:_
+**Heads-up!**  It uses undocumented API so it can be changed without any notice. However, I am making efforts to know whether it works or not with [test-sync-glitch-cli](https://github.com/sotayamashita/test-sync-glitch-cli). It executes test every day with TravisCI. It helps my recognise as soon as possible if it could be wrong. I am looking forward to official API. :unicorn:
 
 ## Install
 
-```console
+```bash
 npm install sync-glitch-cli --save-dev
 ```
 
@@ -62,15 +62,7 @@ GLITCH_PROJECT_ID='' GLITCH_TOKEN='' GH_REPO='' DEBUG=sync-glitch* ./node_module
 ```yml
 # .travis.yml
 after_success:
-  - sync-glitch
-```
-
-Enable debug logs:
-
-```yml
-# .travis.yml
-after_success:
-  - DEBUG=sync-glitch* sync-glitch
+  - npx sync-glitch-cli
 ```
 
 - [The Build Lifecycle](https://docs.travis-ci.com/user/customizing-the-build/#The-Build-Lifecycle)
