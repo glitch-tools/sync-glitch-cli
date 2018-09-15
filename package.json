@@ -49,7 +49,7 @@
     "husky": "^0.14.3",
     "jest": "^23.1.0",
     "lint-staged": "^7.2.0",
-    "nock": "^9.1.5",
+    "nock": "^10.0.0",
     "power-assert": "^1.4.4",
     "prettier": "^1.13.5",
     "travis-deploy-once": "^5.0.0",
