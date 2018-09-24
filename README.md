@@ -4,15 +4,15 @@
 [build url]:   https://travis-ci.org/glitch-tools/sync-glitch-cli
 [codecov badge]: https://codecov.io/gh/glitch-tools/sync-glitch-cli/branch/master/graph/badge.svg
 [codecov url]:   https://codecov.io/gh/glitch-tools/sync-glitch-cli
-[greenkeeper badge]: https://badges.greenkeeper.io/glitch-tools/sync-glitch-cli.svg
-[greenkeeper url]:   https://greenkeeper.io/
+[dependabot badge]: https://api.dependabot.com/badges/status?host=github&repo=glitch-tools/sync-glitch-cli
+[dependabot url]:   https://dependabot.com
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/1587053/34863913-2c2a214c-f7b5-11e7-950f-efca77278393.png" width="300"/>
 <p/>
 <br>
 
-# sync-glitch-cli [![npm][npm badge]][npm url] [![build status][build badge]][build url] [![codecov][codecov badge]][codecov url] [![greenkeeper status][greenkeeper badge]][greenkeeper url]
+# sync-glitch-cli [![npm][npm badge]][npm url] [![build status][build badge]][build url] [![codecov][codecov badge]][codecov url] [![Dependabot Status][dependabot badge]][dependabot url]
 
 > Sync changes in your GitHub repository to glitch.com
 
