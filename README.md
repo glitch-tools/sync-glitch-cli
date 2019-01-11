@@ -68,6 +68,23 @@ after_success:
 - [The Build Lifecycle](https://docs.travis-ci.com/user/customizing-the-build/#The-Build-Lifecycle)
 - [Environment Variables](https://docs.travis-ci.com/user/environment-variables/)
 
+### with GitHub Action 
+
+```
+# .github/main.workflow
+workflow "New workflow" {
+  on = "push"
+  resolves = ["glitch-tools/sync-glitch-github-action@master"]
+}
+
+action "glitch-tools/sync-glitch-github-action@master" {
+  uses = "glitch-tools/sync-glitch-github-action@master"
+  secrets = ["GLITCH_PROJECT_ID", "GLITCH_TOKEN"]
+}
+```
+
+- [GitHub Action for Glitch](https://github.com/glitch-tools/sync-glitch-github-action)
+
 ## Troubleshooting
 
 - [ ] Ensure your repository is **NOT** empty
