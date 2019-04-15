@@ -38,7 +38,7 @@
   "dependencies": {
     "chalk": "^2.3.0",
     "debug": "^4.0.0",
-    "envalid": "^4.1.1",
+    "envalid": "^5.0.0",
     "query-string": "^6.1.0",
     "r2": "^2.0.0"
   },
