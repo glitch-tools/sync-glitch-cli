@@ -7,7 +7,7 @@ const debug = require('debug')('sync-glitch')
 // Quote from gr2m/glitch-deploy
 // https://github.com/gr2m/glitch-deploy/blob/master/bin/glitch-deploy.js#L5-L8
 if (process.env.CI) {
-  debug('Running on CI and checking for environment varibales.')
+  debug('Running on CI and checking for environment variables.')
   envalid.cleanEnv(process.env, {
     GH_REPO: envalid.str(),
     GLITCH_TOKEN: envalid.str(),
