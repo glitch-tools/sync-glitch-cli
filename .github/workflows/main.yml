@@ -1,0 +1,19 @@
+name: E2E
+
+on:
+  push:
+    branches: 
+      - master
+
+  schedule:
+    # At 00:00.
+    # See: https://crontab.guru/#0_0_*_*_*
+    - cron: "0 0 * * *"
+      
+jobs:
+  test:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Test
+        uses: "glitch-tools/sync-glitch-github-action@master"
