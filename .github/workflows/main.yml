@@ -2,18 +2,25 @@ name: E2E
 
 on:
   push:
-    branches: 
+    branches:
       - master
 
   schedule:
     # At 00:00.
     # See: https://crontab.guru/#0_0_*_*_*
     - cron: "0 0 * * *"
-      
+
 jobs:
-  test:
-    runs-on: ubuntu-18.04
+  sync:
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Test
-        uses: "glitch-tools/sync-glitch-github-action@master"
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - run: npx sync-glitch-cli
+        env:
+          GLITCH_PROJECT_ID: ${{ secrets.GLITCH_PROJECT_ID }}
+          GLITCH_TOKEN: ${{ secrets.GLITCH_TOKEN }}
+          GH_REPO: "sotayamashita/sync-glitch-cli"
