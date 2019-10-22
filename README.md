@@ -1,24 +1,15 @@
-[npm badge]: https://badge.fury.io/js/sync-glitch-cli.svg
-[npm url]:   https://badge.fury.io/js/sync-glitch-cli
-
 [build badge]: https://github.com/glitch-tools/sync-glitch-cli/workflows/E2E/badge.svg
 [build url]:   https://github.com/glitch-tools/sync-glitch-cli/actions
 
-[codecov badge]: https://codecov.io/gh/glitch-tools/sync-glitch-cli/branch/master/graph/badge.svg
-[codecov url]:   https://codecov.io/gh/glitch-tools/sync-glitch-cli
-
-[dependabot badge]: https://api.dependabot.com/badges/status?host=github&repo=glitch-tools/sync-glitch-cli
-[dependabot url]:   https://dependabot.com
-
-[license management badge]: https://app.fossa.com/api/projects/git%2Bgithub.com%2Fglitch-tools%2Fsync-glitch-cli.svg?type=shield
-[license management url]:   https://app.fossa.com/projects/git%2Bgithub.com%2Fglitch-tools%2Fsync-glitch-cli?ref=badge_shield
+[vulnerabilities badge]: https://snyk.io//test/github/glitch-tools/sync-glitch-cli/badge.svg?targetFile=package.json
+[vulnerabilities url]:   https://snyk.io//test/github/glitch-tools/sync-glitch-cli?targetFile=package.json
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/1587053/34863913-2c2a214c-f7b5-11e7-950f-efca77278393.png" width="300"/>
 <p/>
 <br>
 
-# sync-glitch-cli [![npm][npm badge]][npm url] [![build status][build badge]][build url] [![codecov][codecov badge]][codecov url] [![Dependabot Status][dependabot badge]][dependabot url] [![licence management status][license management badge]][license management url]
+# sync-glitch-cli [![build status][build badge]][build url] [![Known Vulnerabilities][vulnerabilities badge]][vulnerabilities url]
 
 > Sync changes in your GitHub repository to glitch.com
 
