@@ -13,6 +13,7 @@
 <br>
 
 # sync-glitch-cli [![npm][npm badge]][npm url] [![build status][build badge]][build url] [![codecov][codecov badge]][codecov url] [![Dependabot Status][dependabot badge]][dependabot url]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fglitch-tools%2Fsync-glitch-cli.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fglitch-tools%2Fsync-glitch-cli?ref=badge_shield)
 
 > Sync changes in your GitHub repository to glitch.com
 
@@ -60,3 +61,7 @@ GLITCH_PROJECT_ID='' GLITCH_TOKEN='' GH_REPO='' DEBUG=sync-glitch* ./node_module
 ## Troubleshooting
 
 - [ ] Ensure your repository is **NOT** empty
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fglitch-tools%2Fsync-glitch-cli.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fglitch-tools%2Fsync-glitch-cli?ref=badge_large)
