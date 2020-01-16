@@ -46,7 +46,7 @@
     "codecov": "^3.0.2",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
-    "husky": "^3.0.0",
+    "husky": "^4.0.10",
     "jest": "^24.0.0",
     "lint-staged": "^9.0.2",
     "nock": "^11.3.3",
