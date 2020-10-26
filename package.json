@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "codecov": "^3.0.2",
-    "commitizen": "^4.0.3",
+    "commitizen": "^4.2.2",
     "cz-conventional-changelog": "^3.0.2",
     "husky": "^3.0.0",
     "jest": "^25.1.0",
