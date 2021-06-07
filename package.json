@@ -51,7 +51,7 @@
     "lint-staged": "^9.0.2",
     "nock": "^11.3.3",
     "power-assert": "^1.4.4",
-    "prettier": "^1.13.5",
+    "prettier": "^2.3.1",
     "travis-deploy-once": "^5.0.0",
     "validate-commit-msg": "^2.14.0"
   },
