@@ -37,7 +37,7 @@
   "homepage": "https://github.com/sotayamashita/sync-glitch-cli#readme",
   "dependencies": {
     "chalk": "^3.0.0",
-    "debug": "^4.0.0",
+    "debug": "^4.3.1",
     "envalid": "^6.0.0",
     "query-string": "^6.1.0",
     "r2": "^2.0.0"
